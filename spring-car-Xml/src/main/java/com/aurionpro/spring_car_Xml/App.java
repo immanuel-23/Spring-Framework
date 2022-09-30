@@ -25,7 +25,7 @@ public class App {
 		System.out.println("Country of origin : "+obj2.getCountry());
 
 		
-		
+		context.close();
 		
 	}
 }
