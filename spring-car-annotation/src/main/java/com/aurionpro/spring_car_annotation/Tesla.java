@@ -7,7 +7,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Tesla implements Car {
-	@Autowired
+	@Autowired// it will create object
+	
+	
 	@Qualifier("electric")
 	private Engine engine;
 	
